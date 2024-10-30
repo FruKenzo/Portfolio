@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function skiftBillede(e) {
+            e.preventDefault();
+            document.getElementById("frame").setAttribute("src", e.target.getAttribute("src"))
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            <a href="startside.html">
+                Portfolio
+            </a>
+        </h1>
+    </header>
+    <nav>
+        <div>
+            <a href="3d.html">
+                3D
+            </a>
+            <a href="traditionelt.html">
+                Traditionel kunst
+            </a>
+            <a href="digitalt.html">
+                Digital kunst
+            </a>
+            <a href="index.html">
+                Skoleprojekter
+            </a>
+            <a href="kontakter.html">
+                Kontakter
+            </a>
+        </div>
+    </nav>
+
+    <hr>
+
+    <main class="main-gallery">
+        <article>
+            <h2>
+                3D Projekter
+            </h2>
+            <p>
+                Ting og sager jeg har lavet i Blender.
+            </p>
+
+            <figure class="frame">
+                <img src="Blender/TAW Summer Course/Natalie_Alien head animation GIF.gif" frameborder="0" id="frame" name="frame">
+            </figure>
+        </article>
+
+        <aside>
+            <h3 class="galleriheader">
+                Galleri
+            </h3>
+            <section>
+                <div class="grid">
+                    <h4 class="gridheader">
+                        The Animation Workshop - Computer Graphic Arts kursus
+                    </h4>
+                    <div>
+                        <figure>
+                            <a href="Blender/TAW Summer Course/Natalie_Alien head animation GIF.gif"
+                                onclick="skiftBillede(event)">
+                                <img src="Blender/TAW Summer Course/Natalie_Alien head animation GIF.gif" alt="">
+                            </a>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <a href="Blender/TAW Summer Course/Natalie_Snow globe animation GIF.gif"
+                                onclick="skiftBillede(event)">
+                                <img src="Blender/TAW Summer Course/Natalie_Snow globe animation GIF.gif" alt="">
+                            </a>
+                        </figure>
+                    </div>
+                    <h4 class="gridheader">
+                        Textilskolen - Det kosmiske økosystem
+                    </h4>
+                    <div>
+                        <figure>
+                            <a href="Blender/Blender Billeder/Transience/Transience Video GIF.gif"
+                                onclick="skiftBillede(event)">
+                                <img src="Blender/Blender Billeder/Transience/Transience Video GIF.gif" alt="">
+                            </a>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <a href="Blender/Blender Billeder/Transience/send to ronja.png"
+                                onclick="skiftBillede(event)">
+                                <img src="Blender/Blender Billeder/Transience/send to ronja.png" alt="">
+                            </a>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <a href="Hjemmeside billeder/Transience setup.jpg" onclick="skiftBillede(event)">
+                                <img src="Hjemmeside billeder/Transience setup.jpg" alt="">
+                            </a>
+                        </figure>
+                    </div>
+                    <h4 class="gridheader">
+                        Clawdeen Wolf
+                    </h4>
+                    <div>
+                        <figure>
+                            <a href="Blender/Blender Billeder/Clawdeen/Clawdeen endelig gif.gif"
+                                onclick="skiftBillede(event)">
+                                <img src="Blender/Blender Billeder/Clawdeen/Clawdeen endelig gif.gif" alt="">
+                            </a>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <a href="Blender/Blender Billeder/Clawdeen/Clawdeen Finished Render Photoshopped.jpg"
+                                onclick="skiftBillede(event)">
+                                <img src="Blender/Blender Billeder/Clawdeen/Clawdeen Finished Render Photoshopped.jpg"
+                                    alt="">
+                            </a>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <a href="Blender/Blender Billeder/Clawdeen/Clawdeen Finished Render Behind Photoshopped.jpg"
+                                onclick="skiftBillede(event)">
+                                <img src="Blender/Blender Billeder/Clawdeen/Clawdeen Finished Render Behind Photoshopped.jpg"
+                                    alt="">
+                            </a>
+                        </figure>
+                    </div>
+
+                    <h4 class="gridheader">
+                        Twilight Sparkle
+                    </h4>
+                    <div>
+                        <figure>
+                            <a href="Blender/Blender Billeder/Twilight Sparkle/Twilight good render.png"
+                                onclick="skiftBillede(event)">
+                                <img src="Blender/Blender Billeder/Twilight Sparkle/Twilight good render.png" alt="">
+                            </a>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <a href="Blender/Blender Billeder/Twilight Sparkle/twilight behind.png"
+                                onclick="skiftBillede(event)">
+                                <img src="Blender/Blender Billeder/Twilight Sparkle/twilight behind.png" alt="">
+                            </a>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <a href="Blender/Blender Billeder/Twilight Sparkle/twilight done solid.png"
+                                onclick="skiftBillede(event)">
+                                <img src="Blender/Blender Billeder/Twilight Sparkle/twilight done solid.png" alt="">
+                            </a>
+                        </figure>
+                    </div>
+
+
+                </div>
+            </section>
+        </aside>
+    </main>
+
+    <hr style="margin-bottom: 25px;">
+
+    <footer class="flinks">
+        <section>
+            <h3>
+                Kontakter
+            </h3>
+            <a href="mailto:natalieishoj@gmail.com">
+                <p>
+                    natalieishoj@gmail.com
+                </p>
+            </a>
+            <p>
+                Tlf. 0000000
+            </p>
+            <a href="https://www.linkedin.com/in/nataliebaagoishoj/">
+            <p>
+                LinkedIn
+            </p>
+        </a>
+        </section>
+
+        <section>
+            <h3>
+                Sociale medier
+            </h3>
+            <a href="https://www.deviantart.com/frukenzo">
+                <p>
+                    DeviantArt
+                </p>
+            </a>
+            <a href="https://www.instagram.com/frukenz0/">
+                <p>
+                    Instagram
+                </p>
+            </a>
+            <a href="https://x.com/FruKenzo">
+                <p>
+                    X
+                </p>
+            </a>
+        </section>
+    </footer>
+
+</body>
+
+</html>
