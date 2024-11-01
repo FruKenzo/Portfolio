@@ -179,7 +179,9 @@ footer{
 }
 
 .divider{
-    width: 100%;
+    width: 85%;
     height: auto;
     background-repeat: repeat-x;
+    display: flex;
+    margin: 0 auto;
 }
