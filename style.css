@@ -121,7 +121,12 @@ main{
 }
 
 .frame img{
-    max-height: 500px;
+    max-height: 550px;
+}
+
+img#frame{
+    display: flex;
+    margin: 0 auto;
 }
 
 .galleriheader{
